@@ -5,17 +5,23 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Devis - Peinture, Vitrerie, Carrelage & Parquet</title>
-  <meta name="description" content="Demandez un devis gratuit pour vos travaux de peinture, vitrerie, carrelage, pose de parquet et petites rénovations. Réponse sous 24–72h.">
-  <meta name="keywords" content="devis peinture, devis vitrerie, devis carrelage, devis parquet, rénovation, Île-de-France">
+  <meta name="description"
+    content="Demandez un devis gratuit pour vos travaux de peinture, vitrerie, carrelage, pose de parquet et petites rénovations. Réponse sous 24–72h.">
+  <meta name="keywords"
+    content="devis peinture, devis vitrerie, devis carrelage, devis parquet, rénovation, Île-de-France">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" sizes="180x180">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Lato:wght@300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Lato:wght@300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +41,8 @@
     <div class="topbar d-flex align-items-center dark-background">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:parisdecor.contact@gmail.com">parisdecor.contact@gmail.com</a></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a
+              href="mailto:parisdecor.contact@gmail.com">parisdecor.contact@gmail.com</a></i>
           <i class="bi bi-phone d-flex align-items-center ms-4"><span>06 99 85 80 05</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
@@ -59,17 +66,6 @@
             <li><a href="about.html">À propos</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="projects.html">Réalisations</a></li>
-            <li><a href="team.html">Équipe</a></li>
-            <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="service-details.html">Détail d'un service</a></li>
-                <li><a href="project-details.html">Détail d'un projet</a></li>
-                <li><a href="quote.html" class="active">Devis</a></li>
-                <li><a href="terms.html">Mentions</a></li>
-                <li><a href="privacy.html">Confidentialité</a></li>
-                <li><a href="404.html">404</a></li>
-              </ul>
-            </li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Ouvrir le menu"></i>
@@ -105,7 +101,8 @@
                   <div class="quote-info">
                     <div class="quote-content">
                       <h3>Un projet de peinture, vitrerie, carrelage ou parquet ?</h3>
-                      <p>Obtenez un chiffrage clair et rapide. Nous détaillons les postes (préparation, fournitures, main d’œuvre) et proposons les meilleures options matériaux en fonction de votre support.</p>
+                      <p>Obtenez un chiffrage clair et rapide. Nous détaillons les postes (préparation, fournitures,
+                        main d’œuvre) et proposons les meilleures options matériaux en fonction de votre support.</p>
 
                       <div class="contact-items">
                         <div class="contact-item" data-aos="fade-right" data-aos-delay="200">
@@ -143,21 +140,24 @@
 
                 <div class="col-lg-6">
                   <div class="quote-form-wrapper">
-                    <form action="forms/quote.php" method="post" class="php-email-form" data-aos="fade-left" data-aos-delay="200">
+                    <form id="quote-form" action="#" method="post" class="php-email-form" data-aos="fade-left"
+                      data-aos-delay="200">
                       <div class="form-header">
                         <h4>Obtenir un devis gratuit</h4>
-                        <p>Remplissez le formulaire ci-dessous. Pensez à indiquer l’adresse du chantier et les délais souhaités.</p>
+                        <p>Remplissez le formulaire ci-dessous. Pensez à indiquer l’adresse du chantier et les délais
+                          souhaités.</p>
                       </div>
 
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>
+                            <input type="text" name="from_name" class="form-control" placeholder="Votre nom" required>
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
-                            <input type="email" name="email" class="form-control" id="email" placeholder="Votre e‑mail" required>
+                            <input type="email" name="from_email" class="form-control" placeholder="Votre e-mail"
+                              required>
                           </div>
                         </div>
                       </div>
@@ -165,19 +165,19 @@
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
-                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Téléphone" required>
+                            <input type="tel" name="phone" class="form-control" placeholder="Téléphone" required>
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
                             <select name="type" class="form-control" required>
                               <option value="">Type de projet</option>
-                              <option value="peinture">Peinture & préparation</option>
-                              <option value="carrelage">Carrelage & salle de bain</option>
-                              <option value="vitrerie">Vitrerie & remplacement</option>
-                              <option value="parquet">Parquet & sols</option>
-                              <option value="renovation">Petites rénovations</option>
-                              <option value="autre">Autre</option>
+                              <option value="Peinture & préparation">Peinture & préparation</option>
+                              <option value="Carrelage & salle de bain">Carrelage & salle de bain</option>
+                              <option value="Vitrerie & remplacement">Vitrerie & remplacement</option>
+                              <option value="Parquet & sols">Parquet & sols</option>
+                              <option value="Petites rénovations">Petites rénovations</option>
+                              <option value="Autre">Autre</option>
                             </select>
                           </div>
                         </div>
@@ -188,33 +188,45 @@
                           <div class="form-group">
                             <select name="timeline" class="form-control" required>
                               <option value="">Délais souhaités</option>
-                              <option value="asap">Dès que possible</option>
-                              <option value="1-3months">1–3 mois</option>
-                              <option value="3-6months">3–6 mois</option>
-                              <option value="6-12months">6–12 mois</option>
-                              <option value="planning">Encore en préparation</option>
+                              <option value="Dès que possible">Dès que possible</option>
+                              <option value="1–3 mois">1–3 mois</option>
+                              <option value="3–6 mois">3–6 mois</option>
+                              <option value="6–12 mois">6–12 mois</option>
+                              <option value="Encore en préparation">Encore en préparation</option>
                             </select>
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
-                            <input type="text" name="budget" class="form-control" id="budget" placeholder="Budget estimé (optionnel, €)">
+                            <input type="text" name="budget" class="form-control"
+                              placeholder="Budget estimé (optionnel, €)">
                           </div>
                         </div>
                       </div>
 
                       <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Décrivez le chantier (surface en m², état des supports, type de pièces), l’adresse et vos disponibilités pour la visite." required></textarea>
+                        <textarea class="form-control" name="message" rows="5"
+                          placeholder="Décrivez le chantier (surface en m², état des supports, type de pièces), l’adresse et vos disponibilités pour la visite."
+                          required></textarea>
                       </div>
+
+                      <!-- Techniques -->
+                      <input type="hidden" name="subject" id="q-subject">
+                      <input type="hidden" name="page" value="Devis">
+                      <input type="text" name="website" style="display:none"> <!-- honeypot -->
 
                       <div class="loading">Chargement…</div>
                       <div class="error-message"></div>
-                      <div class="sent-message">Votre demande de devis a bien été envoyée. Nous revenons vers vous sous 24–72h.</div>
+                      <div class="sent-message">Votre demande de devis a bien été envoyée. Nous revenons vers vous sous
+                        24–72h.</div>
 
                       <div class="text-center">
                         <button type="submit">Demander mon devis</button>
                       </div>
                     </form>
+
+
+
                   </div>
                 </div>
 
@@ -235,7 +247,8 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">PARIS DECOR</span>
           </a>
-          <p>Entreprise de rénovation à taille humaine spécialisée en peinture, vitrerie, carrelage et parquet. Nous intervenons sur toute l’Île-de-France pour des finitions durables et soignées.</p>
+          <p>Entreprise de rénovation à taille humaine spécialisée en peinture, vitrerie, carrelage et parquet. Nous
+            intervenons sur toute l’Île-de-France pour des finitions durables et soignées.</p>
           <div class="social-links d-flex mt-4">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -247,25 +260,24 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Liens utiles</h4>
           <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">L’entreprise</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Mentions légales</a></li>
-            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">L’entreprise</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="terms.html">Mentions légales</a></li>
+            <li><a href="privacy.html">Confidentialité</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Nos métiers</h4>
           <ul>
-            <li><a href="#">Peinture</a></li>
-            <li><a href="#">Vitrerie</a></li>
-            <li><a href="#">Carrelage</a></li>
-            <li><a href="#">Parquet</a></li>
-            <li><a href="#">Cloisons & isolation</a></li>
+            <li><a href="services.html#services">Peinture</a></li>
+            <li><a href="services.html#services">Vitrerie</a></li>
+            <li><a href="services.html#services">Carrelage</a></li>
+            <li><a href="services.html#services">Parquet</a></li>
+            <li><a href="services.html#services">Cloisons & isolation</a></li>
           </ul>
         </div>
-
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Nous contacter</h4>
           <p>33 Rue de la Justice</p>
@@ -279,29 +291,75 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">PARIS DECOR</strong> <span>Tous droits réservés</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">PARIS DECOR</strong> <span>Tous droits réservés</span>
+      </p>
       <div class="credits">
-        By  <a href="https://akamimehdi.netlify.app/">AKAMI Mehdi</a>
+        By <a href="https://akamimehdi.netlify.app/">AKAMI</a>
       </div>
     </div>
 
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Haut de page"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"
+    aria-label="Haut de page"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader" aria-hidden="true"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init({ publicKey: "UDWdHiWlVXJ5uqkPa" });  // NOTE pour les curieux lol:
+      // - Cette "publicKey" EmailJS est CONÇUE pour être publique.
+      // - Sur un site statique (GitHub Pages), aucune clé front ne peut être cachée.
+      // - La sécurité repose sur : domaine autorisé (whitelist), quotas EmailJS,
+      //   honeypot/reCAPTCHA et le fait qu'on N’UTILISE PAS de clé privée ici.
+      // - En cas de besoin d’opacité totale, utiliser un backend / serverless (voir ci-dessous).
 
+      const form = document.getElementById("quote-form");
+      const loading = form.querySelector(".loading");
+      const errorEl = form.querySelector(".error-message");
+      const sentEl = form.querySelector(".sent-message");
+      const subjectEl = document.getElementById("q-subject");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        if (form.website && form.website.value) return; // bot
+
+        // sujet pour l’admin
+        const t = form.type.value || "Devis";
+        const n = (form.from_name.value || "").trim() || "Client";
+        subjectEl.value = `Devis — ${t} — ${n}`;
+
+        errorEl.style.display = "none";
+        sentEl.style.display = "none";
+        loading.style.display = "block";
+
+        try {
+          await emailjs.sendForm("service_zdc6ou5", "template_ie5xrpz", form); // <-- modèle Notification
+          loading.style.display = "none";
+          sentEl.style.display = "block";
+          form.reset();
+        } catch (err) {
+          loading.style.display = "none";
+          errorEl.textContent = "Erreur d’envoi. Réessayez ou contactez-nous : parisdecor.contact@gmail.com";
+          errorEl.style.display = "block";
+          console.error(err);
+        }
+      });
+    })();
+  </script>
 </body>
+
 </html>

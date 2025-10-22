@@ -1,6 +1,6 @@
 # PARIS DECOR — Site vitrine BTP
 
-> **Auteur :** Akami Mehdi – Développeur
+> **Auteur :** AKAMI – Développeur
 > **Contact :** [parisdecor.contact@gmail.com](mailto:parisdecor.contact@gmail.com) · 06 99 85 80 05
 
 ## Projet
